@@ -3,6 +3,7 @@
 
 var express = require('express');
 var ParseServer = require('parse-server').ParseServer;
+var Pubnub = require('cloud/pubnub');
 
 var databaseUri = process.env.DATABASE_URI || process.env.MONGOLAB_URI;
 
